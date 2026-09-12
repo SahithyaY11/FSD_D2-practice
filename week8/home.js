@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+</head>
+
+<body>
+
+<h1>Welcome <%= user %>!</h1>
+
+<p>Your last login was: <%= lastLogin %></p>
+
+<a href="/logout">Logout</a>
+
+</body>
+</html>
