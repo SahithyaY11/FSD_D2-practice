@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Management</title>
+</head>
+<body>
+
+<h1>Student Management System</h1>
+
+<h2>Students</h2>
+
+<ul>
+    <% students.forEach(student => { %>
+        <li>
+            <%= student.rollNumber %> -
+            <%= student.studentName %> -
+            <%= student.department %> -
+            <%= student.marks %>
+        </li>
+    <% }) %>
+</ul>
+
+</body>
+</html>
